@@ -4,7 +4,7 @@ describe("Testing of EA App", () => {
 
     it("Login application", () => {
 
-        cy.visit("http://eaapp.somee.com/");
+        cy.visit("/");
 
         cy.contains("Login").click();
 
